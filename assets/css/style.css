@@ -1,0 +1,33 @@
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(207, 120, 120);
+}
+.border{
+  border: 2px solid rgb(207, 120, 120);
+}
+body{
+  text-align: center;
+  background-color: rgb(235, 228, 214);
+}
+img {
+  width: 200px;
+  height: 200px;
+  padding: 1px;
+  border: inherit;
+  /* border: 2px solid rgb(207, 120, 120); */
+  border-radius: 10%;
+  margin: 2px;
+  object-fit: cover;
+  /* box-sizing: border-box;  поместить padding и border в размер widht*/
+}
+a {
+  font-size: 120%;
+  display: inline-block;
+  padding: 3px;
+  /* border: 2px solid rgb(207, 120, 120); */
+  border-radius: 20%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
